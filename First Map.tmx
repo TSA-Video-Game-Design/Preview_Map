@@ -28,9 +28,15 @@
   <image source="MY GRASSSSSSS.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="29" name="Evergreen 1st edit" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
   <image source="Evergreen 1st edit.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="93" name="Oak Tree - Transparent" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
   <image source="Oak Tree - Transparent.png" width="128" height="128"/>
  </tileset>
  <layer name="Tile Layer 1" width="128" height="128">
