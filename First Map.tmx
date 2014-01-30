@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass" tilewidth="32" tileheight="32">
+  <image source="Grass.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Water 5 - Lighted Water 4" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <image source="Water 5 - Lighted Water 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Road" tilewidth="32" tileheight="32">
+  <image source="Road.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Sidewalk Basic" tilewidth="32" tileheight="32">
+  <image source="Sidewalk Basic.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Pavement" tilewidth="32" tileheight="32">
+  <image source="Pavement.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="Water 4" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <image source="Water 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="MY GRASSSSSSS" tilewidth="32" tileheight="32">
+  <image source="MY GRASSSSSSS.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="29" name="Evergreen 1st edit" tilewidth="32" tileheight="32">
+  <image source="Evergreen 1st edit.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="93" name="Oak Tree - Transparent" tilewidth="32" tileheight="32">
+  <image source="Oak Tree - Transparent.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aSXKDMBAFUJx5dpx5uv8500uXC4NMFEuCt/j1N2xYvG4QrLquO4msCvVn5CtD30ceEnoTeRro68jNhM51H8fu08hZwf6O/GTodeQxoZ8jLwN9G7mb0Lnu49hdyj3/dTT//PPPP//8888///zzzz///PPPP//8888///zzzz///PPPP//8888///zzX94x//zzzz///PPPP//8888///zzzz///PPPP//8888///zzzz///PPPP//8888///zzzz///PPPP//8888///zzzz///PPPP//8888///zzX94x//zzzz///PPPP//8888///zzzz///PPPP//8888///zzzz///PPPf0q/Rt62mv9l+X+PfGw1/8vwv+s+5xzgv37/u+5zzgH+6/V/Hrno6ZxzgP96/V9Grno65xzgvz7/Y85zzgH+6/M/5jznHOC/Hv+pe37sOv7b6aF9P+Z/33X8t9N97/n2/zL9p+53+3+e/vfNgdTnAv7b66HzvkPf//lvr/9y7s//PP2nnvvzP2//U+cA/+10ju9//Jd3/J/+/f+3bP/+/+Off/75559//vnnn3/++eeff/75L++Yf/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eef/7b9/wJk2kc3AAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RxW1EQQBEwUnEzPaamdbMzJh/HO4I/lw9UpX0Tn3sUoAWDaTBNJSG00gaTWNpvLLRhtrHk2kqTaeZNJvmUq+y0YaJ0v3jQlpMS2k5raTVtFbZaMN86f5xI22mrbSddtJu2qtstGG9dP/YTwfpMB2l43SSTisbbdgv3T+ep4t0ma7SdbpJt5WNNpyV7h/v00N6TE/pOb2k18pGG+5K94/v6SN9pq/0nX7Sb2WjDW/FjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8H39r5mWgAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3JWUoCUACFYTfSTJNhZdGMaUWlRjPN+99HZwX3gk9e+D74X87pdAAAmGcLaTEtpeW0klYL+1rloy3raSNtpq20nbqFfafy0ZZe2k17aT/100FhP6x8tOUoHaeTdJrO0nlhv6h8tGWQLtMwjdJVui7sN5WPttymu3SfxmmSpoX9ofLRlsf0lJ7TS3pNb4X9vfLRlo/0mb7Sd/pJv4X9r/IBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADALP4BvayXZgAAAQA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3O2TaQYQBAUS8iSQNFQkKDucHQoDIU7/8czqUn+L+bvdc692dmBgAAAICRZutRzdXjmq8ntVBPx20xkWf1vF7UYi3Vy3pVywO/mMZKva7VelNrtV4b9XbgF9PYrHe1Vdu1U+/rQ30c+MU0PtVu7dV+HdRhHdXxuC0m8rm+1Nf6Vid1Wmd1PvCLaXyvH/WzftVF/a4/9XfgF9O4rKu6rpv6V//rtu4GfgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQ/f4sA9zAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RRU4EQABE0bkIOjiDO4O7u8P9z0GdoFedNCTvJX9fSXU6AAAAAPxHA2kwDaXhNJJGUzeNtZtFRaWPx9NEmkxTaTrNpNnUa7CV+kofz6X5tJAW01JaTitptcVYqit9vJbW00baTFtpO/XTTouxVFf6eDftpf10kA7TUTpOJw22Ul/p49N0ls7TRbpMV+k63TTYSn2lj2/TXbpPD+kxPaXn9NJiLNWVPn5Nb+k9faTP9JW+00+LsVTnYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAv+QX54qMGAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WRY7sQBBFUW+kmZmZmZlh/+vot4KUVa3qX65/jnRHoZDsSSirCgAAAAAAAPgXelJv6kv9aSANpqE0XGNOs42k0TSWxtNEmkxTabrGnGabSbNpLs2nhbSYltJyjTnNtpJW01paTxtpM22l7Rpzmm0n7aa9tJ8O0mE6Ssc15jTbSTpNZ+k8XaTLdJWua8xptpt0m+7SfXpIj+kpPdeY02wv6TW9pff0kT7TV/quMQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqKMn9aa+1J8G0mAaSsNt2KOzjKTRNJbG00SaTFNpug17dJaZNJvm0nxaSItpKS23YY/OspJW01paTxtpM21V5Rtf2tv+yx/gV3bSbtpL++kgHaajqnzjS3vHf/j9/M5JOk1n6TxdpMt0VZVvfGnP27A5btJtukv36SE9pqeqfONLe96GzfGSXtNbek8f6TN9VeUbX9rzNuwOpRt/XdjzNuwOpRv/XNjzNuwOpRv/Xdhr9W7QHVq9G3SHVu8GAAAAAADwf/kB6BvieAAAAQA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WRW4DURBF0b+RMDMzMzPD/teRN/agW5ZiqZ2cI91hDUtVpQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE3Xk3pTX+pPA2kwDaXhDs7SDCNpNI2l8TSRJtNUmu7gLM0wk2bTXJpPC2kxLaXlUr3jdbM030paTWtpPW2kzbSVtkv1jtfN0nw7aTftpf10kA7TUTou1TteN0vznaTTdJbO00W6TFfpulTveN1sK/9i89yk23SX7tNDekxP6blU73jdbCv/YvO8pNf0lt7TR/pMX+m7VO943Wwr/2L3aXfHq/gXu0+7O17Fv/i/tfsv8rf85i2h+/zmLQEAAOBv+wEH1EBiAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 8" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UyU5UURiF0XoRQRrppBFFFLEDewUVkN4WFRV5/7F75k2lcnImyC1ZK/lmfyo12Od2OgB/fUgf06f0+YxvaJ8v6Sh9Td/O+Ib2+Z6O04/0s9P7HXff1PwO/eFXOkm/02mn9zvuvum1ke4b+lPNO/at/3/VvGPf+ovNtx4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOx6U0kAbT5TSUhtNIGj2/v8U/ciWNpfE0kSbTVLqapht3pZ3YUP+aSbNpLl1L8+l6upEWGnelndRuiPa5mRbTrXQ7LaU7aTndbdyVdlK7IdrnXrqfHqSHaSWtpkfpceOutJPaDdE+T9LT9Cw9Ty/Sy/QqrTXuSjup3RDts55epzfpbdpIm2krvWvclXZSuyHaZzvtpN20l/bTQTpM7xt3pZ3Uboj+VdpJ7YYAAACg5A+f1zJgAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 9" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3LyQ2DQBREwUnUYHYw5H+mQ/jXkaukd2mpWwMAAP7dJw1pTN/CXvnSjynNaUlrYa986ceW9nSks7BXvvTjSr90p6ewV74AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQN9eG9bSMwAAAQA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 10" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VSQrDMBBFQV808xzn/uv8pQkS2BCMlFTB2whp1aY9DAAAAMC/2aRt2qX9F+/Sh0M6plM6T85Ls67dpV+XdE23dJ+cl2Zdu2sv9OuRnmlMr8l5ada1u/bC76nNuqS2F/gPS74VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWGKTtmmX9iu8oy2HdEyndF7hHW25pGu6pfsK72jLIz3TmF7D/L3++W5Y8JZ2lfb63Ln6J/SvtNfnztU/oX+lvT53rqW39M9cAQAAAAAAAKANb3gb1H4AAAEA
+  </data>
+ </layer>
+ <layer name="Tile Layer 11" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ6CQBREUX5UEQEV9P9rpqDcbVkJ5yS3eckrp+sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgGLd0T316NPinrSE905imBv+0NadXeqfPfqttunQv/XMeS1rTN/32W23TpXvpn3OrbdrWr6G2aVsHAAAAAAD4DxvvGqzeAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 12" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ROw6DQBBEQS5qY5uPbeD+MR2vtJshAaqSXjTqaLoOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACO9UjP1KfXgRvO6Z0+aUhjcav9ubXhWqY0p2/6Fbfan1sbruWflrSmrbjV/tzacB/+DAAAAADntQOf1OCCAAABAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 13" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SuwrDMBBFQf+oE+fpvP6/zm0EaoQag4gzA6fZaos7TQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALCdOR3SMS1jX2GAUzqnS7pWd7v4D7d0T2t6VPfWLgr72IdneqV3+lT31i6K3j74ba1dFL19sG+9fQAAADDGF0G4nw8AAAEA
+  </data>
+ </layer>
+</map>
