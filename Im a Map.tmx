@@ -13,14 +13,35 @@
   <image source="Road.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="17" name="Oak Tree - Transparent" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
   <image source="Oak Tree - Transparent.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="33" name="Evergreen 1st edit" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
   <image source="Evergreen 1st edit.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="97" name="Sidewalk Basic" tilewidth="32" tileheight="32">
+  <image source="Sidewalk Basic.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="101" name="Water 5 - Lighted Water 4" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <image source="Water 5 - Lighted Water 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="105" name="Water 4" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <image source="Water 4.png" width="64" height="64"/>
  </tileset>
  <layer name="Tile Layer 1" width="128" height="128">
   <data encoding="base64" compression="zlib">
-   eJzt01sKg1AMRdFrq31Zbec/2mYEEuRiiqzAYX/nYw2ttUtsKOoUu3Vo9p6x10aX2Lqjvf44utfYWNh77NGh2Ztj741+Yt8d7fXH0a1yz/9/lH/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vmvd8x/7vjnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/6rHfOfO/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn/9qx/znjn/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/7557/aMf+5459//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++a92zH/u+Oeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/7P6v8HFAqHkA==
+   eJzt2TmSgzAQQFE8++65oj37cv94OnRRGFSMsAS8oOsnJASvheVN0zRnMZtCvYy5ytBdzD6htzF3PX2MeRrRXO9x6p7HXBTsdcxNhr7EvCb0Puahp9uY5xHN9R6nbin3/NdR/vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/7557+8Y/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/7557+8Y/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn/+UfsV8H5T/dfn/ifk9KP/r8N92n3MP8F+//7b7nHuA/3r9v8W8dzTnHuC/Xv8fMZ8dzbkH+K/P/5DznHuA//r8DznPuQf4r8d/6jk/9Bz/82nfeT/k/9hz/M+nXb/znf/r9J96vjv/l+n/2B5I/S7gf37tu+9rn/ND7vmfX/9z78//Mv2n3vvzv2z/Y/cA//Npjv//+C/veEr/U5b/+v1PWf75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vnnn3/++eeff/75559//vlfg/8/SXrTLg==
   </data>
  </layer>
  <layer name="Tile Layer 2" width="128" height="128">
