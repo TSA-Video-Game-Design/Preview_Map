@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Sidewalk - Border" tilewidth="32" tileheight="32">
+  <image source="Sidewalk - Border.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Sidewalk - Border (Cracked)" tilewidth="32" tileheight="32">
+  <image source="Sidewalk - Border (Cracked).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Pavement" tilewidth="32" tileheight="32">
+  <image source="Pavement.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Road" tilewidth="32" tileheight="32">
+  <image source="Road.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Building 1 - Fixed" tilewidth="32" tileheight="32">
+  <image source="Building 1 - Fixed.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="273" name="Building 2 - Fixed" tilewidth="32" tileheight="32">
+  <image source="Building 2 - Fixed.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="529" name="Rubble" tilewidth="32" tileheight="32">
+  <image source="Rubble.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3buw6CQBCG0UVEQPHy/k/LNBaSGGNM3LBzij9fP6eerpRyiHVJ28eOifu8wxA7JerWf4xNifrO/xq7NdxP/vfYo+Hy5/+N/xw777i/+l9iy47Lnz9//vz58+fPnz9//vz58+fPnz9//vz58+fPnz9//vz586/vx58/f/78+fPnz58/f/78+f/Dv7X6/+DP3/+n/89X/6yt/X9duytPMdT9AEAAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZN05DURBAUW+G7JbsFpvUkmkxyS3J0GJiSzQt2S2ZxXE3QPHF13t66F7ptKPppphCwczMzMzM7Pfa0I4OdKIL3ehBMeJeoepFH/oxgEEMYRiliHuFagRlVDCKMYxjApMR9wrVFKYxg1nMYR4LWIy4V6iWUMUyVrCKNayjFnGvUG1gE1vYxg7q2MVexL1CtY8GDnCIIxzjBKcR9wrVGc5xgUtc4RpN3GSYk+odvcUd7vGARzzhGa0Mc1K9oy94xRve8YFPfOE7wxzvqHfUO+od9Y7+7Y6mWl53NNXyuqNmZmZmZmZm/6lU/wV5leq/IK/8F/gv8F/gv8B/gf8C/wX+C8zMzMzMsvYDsSytpABAAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZSTDXcRjH8R8zhXQhS9TVFldLy9VWrtmvRelqd6XE1e5qqVyL4lrWKxJXFXVNkYP3+X+hw+P3ND7vmdfBjPmOZ+bxP/yfIFBKKaWUUkp5LjkqCFKQiutIQzpu4GZU2H+dfRnMmIksZCMHt5CLvAswfz4zFqAQRbiNO7iLew7mt97PYt4oQSnKUI77eIAKB/Nb7+dD3qhEFapRg1rUod7B/Nb7+Yg3HqMBjXiCp2jCMwfzW+9nM2+0oBVtaEcHOtHlYH7r/ezmjR48xwv04iX60O9gfuv9HOCNQQxhGCMYxRjGDedPiA6CxOjTf896Pyd4YxJTmMYrvMYbzBjOf43Zk84wv/V+vuWNd5jFHN7jA+axcA77H7kHkT9b7+dH3viERSxhGStYxdo5zB+5B5E/W+/nOm9sYBOfsYUv2MaOg88/6/3c5Y2v+Ibv2MM+fuCng/mt9/MXbxzgN/7gEEf4i2MH81vv5yX+1y4jBrGIwxXE4+oZPp+t876f1nnfT+u876dSSiml/j3dX3R/8Xx/sc77/cU67/cX67zfX6zzfn+xzvv9xbqw7i9eCuv+4qWw7y9hF/b9Jey831+s0/fb+n5b328rpZRSSin1/3UC0n77hABAAAA=
+  </data>
+ </layer>
+</map>
