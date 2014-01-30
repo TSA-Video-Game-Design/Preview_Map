@@ -196,6 +196,135 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="533" name="Black Car" tilewidth="32" tileheight="32">
+  <image source="Black Car.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="541" name="Blue Car" tilewidth="32" tileheight="32">
+  <image source="Blue Car.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="549" name="Red Car" tilewidth="32" tileheight="32">
+  <image source="Red Car.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Tile Layer 1" width="64" height="64">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3buw6CQBCG0UVEQPHy/k/LNBaSGGNM3LBzij9fP6eerpRyiHVJ28eOifu8wxA7JerWf4xNifrO/xq7NdxP/vfYo+Hy5/+N/xw777i/+l9iy47Lnz9//vz58+fPnz9//vz58+fPnz9//vz58+fPnz9//vz586/vx58/f/78+fPnz58/f/78+f/Dv7X6/+DP3/+n/89X/6yt/X9duytPMdT9AEAAAA==
@@ -203,12 +332,7 @@
  </layer>
  <layer name="Tile Layer 2" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3ZN05DURBAUW+G7JbsFpvUkmkxyS3J0GJiSzQt2S2ZxXE3QPHF13t66F7ptKPppphCwczMzMzM7Pfa0I4OdKIL3ehBMeJeoepFH/oxgEEMYRiliHuFagRlVDCKMYxjApMR9wrVFKYxg1nMYR4LWIy4V6iWUMUyVrCKNayjFnGvUG1gE1vYxg7q2MVexL1CtY8GDnCIIxzjBKcR9wrVGc5xgUtc4RpN3GSYk+odvcUd7vGARzzhGa0Mc1K9oy94xRve8YFPfOE7wxzvqHfUO+od9Y7+7Y6mWl53NNXyuqNmZmZmZmZm/6lU/wV5leq/IK/8F/gv8F/gv8B/gf8C/wX+C8zMzMzMsvYDsSytpABAAAA=
-  </data>
- </layer>
- <layer name="Tile Layer 3" width="64" height="64">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3ZSTDXcRjH8R8zhXQhS9TVFldLy9VWrtmvRelqd6XE1e5qqVyL4lrWKxJXFXVNkYP3+X+hw+P3ND7vmdfBjPmOZ+bxP/yfIFBKKaWUUkp5LjkqCFKQiutIQzpu4GZU2H+dfRnMmIksZCMHt5CLvAswfz4zFqAQRbiNO7iLew7mt97PYt4oQSnKUI77eIAKB/Nb7+dD3qhEFapRg1rUod7B/Nb7+Yg3HqMBjXiCp2jCMwfzW+9nM2+0oBVtaEcHOtHlYH7r/ezmjR48xwv04iX60O9gfuv9HOCNQQxhGCMYxRjGDedPiA6CxOjTf896Pyd4YxJTmMYrvMYbzBjOf43Zk84wv/V+vuWNd5jFHN7jA+axcA77H7kHkT9b7+dH3viERSxhGStYxdo5zB+5B5E/W+/nOm9sYBOfsYUv2MaOg88/6/3c5Y2v+Ibv2MM+fuCng/mt9/MXbxzgN/7gEEf4i2MH81vv5yX+1y4jBrGIwxXE4+oZPp+t876f1nnfT+u876dSSiml/j3dX3R/8Xx/sc77/cU67/cX67zfX6zzfn+xzvv9xbqw7i9eCuv+4qWw7y9hF/b9Jey831+s0/fb+n5b328rpZRSSin1/3UC0n77hABAAAA=
+   H4sIAAAAAAAAC+3ZN0wcQRSA4WMlZzcOZJwNx93RkmnJtGRaMi2ZlkxLpiXTkmmd3Tq7dXbr7MI/spBW6NCOdj23a/v90ieDZD3eIaGRZnw+SZIkSZIkSZKko0tGCvxIRQBBhJCG6CifLwaxiEM8EpCIpChnP1vnbNXSkYFMZCEbOchFHpLZIwV+pCKAIEJIc7ijztmq5aMAhShCMUpQijKks0cGMpGFbOQgF3kOd9Q5W7VyVKASVahGDWpRh3z2KEAhilCMEpSizOGOOmerVo8GNKIJzWhBK9pQzh4VqEQVqlGDWtQ53FHnbNXa0YFOdKEbPehFH+rZowGNaEIzWtCKNoc76pytWj8GMIghDGMEoxhDO3t0oBNd6EYPetHncEeds1UbxwQmMYVpzGAWc+hnjwEMYgjDGMEoxkw7Wp2j4VKdrbN5LGARS1jGClaxhnH2mMAkpjCNGcxizrSj1TkaLtXZOjpn+Hznsc7XG9jEFraxg13sYZ49FrCIJSxjBatYM+1odY6GS3W2ji7w2S8av78++F0cZP5+nT02sIktbGMHu9gz7Wh1joZLdbbuzL+Lw9/fYo/buIO7uIf7eICHph2tztFwqc52s0fs8RhP8BTP8Bwv8NK0o9U56mS2m71ij9d4g7d4h/f4gI+mHa3OUSez3ewTe3zGF3zFN3zHD/w07Wh1jtqdnczfYQr8SDWOGKSxY/zM4ziBkziF0ziDs6Z9rM7R/aL5/zGIRZyhNjvAv0GEkObC51fN6hzdL579E5CIJA9/FkmSJOn/yQt30W7mhbtoN/PCXbSbeeEu2s28cBftZl64i3YzL9xFu5kX7qLdLNJ30XbeC3QW6btoO+8FOov0XbSd9wKdRfou2s57gc4ifRdt571AZyp30YfvL51k571AZyp30X/y/tLOe4HOVO+57XaJGZdxBVcNe+8Ff3PX+MzXcQM3DbX3gn85lfcCSZIkSZIkSZKO7hfcyOeEAEAAAA==
   </data>
  </layer>
 </map>
