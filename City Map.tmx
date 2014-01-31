@@ -348,6 +348,62 @@
  <tileset firstgid="577" name="Road - with Yellow line Top Left Corner" tilewidth="32" tileheight="32">
   <image source="Road - with Yellow line Top Left Corner.png" width="64" height="64"/>
  </tileset>
+ <tileset firstgid="581" name="Rubble 2" tilewidth="32" tileheight="32">
+  <image source="Rubble 2.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="585" name="Rubble 2 - Large" tilewidth="32" tileheight="32">
+  <image source="Rubble 2 - Large.png" width="128" height="128"/>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Tile Layer 1" width="64" height="64">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3bNw4DIRSEYRbn7Is45xzvfyZPs4UtObArC7H8xWjQo4KvfokxxipJpF1SyhF3+g8VpRpRv/rXlHpE/c6/o3QL3N/8e0q/wP2r/0XDqzJQhgH3QTlad/+bLu/KSBkH3CflbN39JxpOlYbOTRNup+9w9Z/pcq60dG6bcDt9B/74448//vjjjz/++OOPP/74448//vjjjz/++OOPP/744+/fD3/88ccff/zxxx9//PHHH3/88ccff/z/4b/QcGn972/k7Y2yzeC/0uXa+t/fyNs7ZZ/Bv6jN/tdn/1ia/c9n/1jb9/61734ARzBA0gBAAAA=
@@ -355,7 +411,7 @@
  </layer>
  <layer name="Tile Layer 2" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAC+3ZN0wcQRSA4WMlZzcOZJwNHKEl05JxNpmWTEumJdOSacm0ZFpntzi3zm6dXfg/WSet0J12tHuzu1jzS58MEn68PYqVZjwelUqlUqlUKpVKpQpePBKQCC+SkIwUpCI8zOOJQCSiEI0YxCIuzNrvljlbtDSkIwOZyEI2cpCLePZIQCK8SEIyUpBqcUeZs0XLQz4KUIgiFKMEpUhjj3RkIBNZyEYOci3uKHO2aGUoRwUqUYVq1KAWeeyRjwIUogjFKEGpxR1lzhatDvVoQCOa0IwWtKKMPcpRgUpUoRo1qLW4o8zZorWhHR3oRBe60YNe1LFHPRrQiCY0owWtFneUOVu0PvRjAIMYwjBGMIo29mhHBzrRhW70oNfijjJnizaGcUxgElOYxgxm0cce/RjAIIYwjBGM6nY0eo8GSnS2zOYwjwUsYgnLWMEqxthjHBOYxBSmMYNZ3Y5G79FAic6W0SnN4zmNNb5exwY2sYVt7GAXc+wxjwUsYgnLWMGqbkej92igRGfL6AzPflb797X/s/Cn/36NPdaxgU1sYRs72NXtaPQeDZTobNnpP4v9399jj/t4gId4hMd4gqe6HY3eo76uMfM6buCmJj7byfbY4xme4wVe4hVe441uR6P3qK9bPPNt3MFdTXy2k71lj3d4jw/4iE/4jC/I4znyNeP3qK8yfq4cFajUjGe7oa/s8Q3f8QM/8Qu/8QcFPEehZvweNTPbVzyzE5AIrxZkkKT8f9vDOIKjOIbjOIGTun2M3qO+wvn5CEQiCocEZifxbzJSkGrz8/v/tvvzfy76jN6jvqL5PzGIRZzNzxLKgn0uKpVKpTp4ueEs2snccBbtZG44i3YyN5xFO5kbzqKdzA1n0U7mhrNoJ3PDWbST2X0Wbea+QGZ2n0WbuS+Qmd1n0WbuC0KZ02fRZu4LQpnTZ9Ei9wUyM3MWvf/80koi9wV2JnIWHcrzS5H7AjsTOYu20jlmnMcFXDR5X3CQu8QzX8YVXNXE7gv+50TuC1QqlUqlUqlUKlXw/gIoSHhlAEAAAA==
   </data>
  </layer>
 </map>
