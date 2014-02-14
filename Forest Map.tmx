@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Fragmented DURT" tilewidth="32" tileheight="32">
+  <image source="Fragmented DURT.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Grass - Flowers" tilewidth="32" tileheight="32">
+  <image source="Grass - Flowers.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Grass- Mushroom" tilewidth="32" tileheight="32">
+  <image source="Grass- Mushroom.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="MY GRASSSSSSS" tilewidth="32" tileheight="32">
+  <image source="MY GRASSSSSSS.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Oak Tree - Transparent" tilewidth="32" tileheight="32">
+  <image source="Oak Tree - Transparent.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="Water 3 - Lighted Water 2" tilewidth="32" tileheight="32">
+  <image source="Water 3 - Lighted Water 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="Water 5 - Lighted Water 4" tilewidth="32" tileheight="32">
+  <image source="Water 5 - Lighted Water 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Grass - Dirt Transition (Right)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Right).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="45" name="Grass - Dirt Transition (Bottom Left Corner)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Bottom Left Corner).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="Grass - Dirt Transition (Bottom)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Bottom).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="53" name="Grass - Dirt Transition (Left)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Left).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="57" name="Grass - Dirt Transition (Top Left Corner)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Top Left Corner).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="61" name="Grass - Dirt Transition (Top Right Corner)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Top Right Corner).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="65" name="Grass - Dirt Transition (Top)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Top).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="69" name="Grass - Dirt Transition (Bottom Right Corner)" tilewidth="32" tileheight="32">
+  <image source="Grass - Dirt Transition (Bottom Right Corner).png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aWY4DIQwEUDL7PnONWe5/vrGUPyQETRvbhQvJ8lciJXkqYppLKeVG6jLYv6V+pN6lPhx7a41+Dq1+K3V3oP9K/Ul9Sn059tY6+nnO9qPft7a/e6mHide1VjZ/j1JPE69rLRR/z1Ivhfk36+9V6q0w/1bl32yuZfG3Ktdmu7W7lr/e76m1/9br7PtZu2v5q9eq/bde9Hfto/tyvejv2kf35Xrt4g9l/o3qD2X+pT/6i+AO3Z/3HIzuz3sORvfnPQej+4syB+/qj/nH/Zf+6I/+6I/+9PxFmTtQ/UWZO1D9zTpZNY+g+Zt1smoeyeKP+cf9l/7ob3d/1v8PtTz1lpU/6/+HWp56i/mH4Q81/3pL25/V841d/Vnf89vNX5SO6i9Kz+ZPOzezzR/auYk+f3ifR6P78z6PRvfn3dH9effo/qI+d0PxF/W5G4q/0fzzmoej+xvNP695eBd/zD/uv/RHf/TH85eV/nj+EiP3svrLnn+9/EK9f2Dlr5dfqPcPmH8Y/rzzjv7oL4K7Xfx5n0uj+/M+l0b3593R/Xl3+qM/+rPzx/O/c154/hcj97L6y5Z/vfsv3vfwo/vr3X/xvocf3R/zj/m3ov8DzImfGgBkAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VWUsDMRSG4bjcuq+tVr11rd2r1n39/7/ID3qTxpMZh7S0kPeBj0MGAkM4OXEOwKwsKcteRTUryqpX8T9h38UqbGHfxSom0Xdp6LvpoO/S0HfTQf+lof+c21K2lR1l11hjUng+e8q+cqAcGmtrT87C86kpdeVIOTbW1p6chefTUE6UU+XMWFt7cmadzyz25IpZ95d1JrFzCmcd52nP/9ibEM463g57/sfehHDW8XbY89//VnRHeTvKcUfTcEfTcEcBAAAAAAAAAAAAAAAAAAAAAAAAAACQg5bSrlA/la+5/Oli6ijdCvVb+ZnLny6mO+VeeVXevPqoPClryrpRMfagjJR35cOrz8qLsqFsGhVjPaVvfD9XLhx9V2agDI3vl8qVo+/KXCs3Lv7OMv+KNZVbF39nmX/FfgFRAuPMAGQAAA==
+  </data>
+ </layer>
+</map>
